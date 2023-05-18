@@ -1,0 +1,277 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "invoices",
+      "patterns": [
+        "Go to invoices?",
+        "Where can I find my invoices?",
+        "I want to download my invoices?",
+        "I want to see my invoices?",
+        "Download invoices"
+      ],
+      "responses": [
+        "Click <a href='https://app.chatbot.com/settings/subscription/invoices' target='_blank'>here</a> to view your invoices."
+      ]
+    },
+    {
+      "tag": "financial asset law",
+      "patterns": [
+        "Does the unclaimed financial assets law only reach back to 2011?",
+        "Financial asset law",
+        "Financial assets law",
+        "Asset Laws",
+        "Asset Law"
+      ],
+      "responses": [
+        "The law is retrospective to the date of holding institution incorporation."
+      ]
+    },
+    {
+      "tag": "about claims",
+      "patterns": [
+        "About claims",
+        "What does unclaimed assets mean?",
+        "meaning of unclaimed assets",
+        "definition  of unclaimed assets",
+        "unclaimed assets"
+
+      ],
+      "responses": [
+        "These are assets that have been assumed to be abandoned and have been transferred to the UFAA or have been deemed under any other law to be unclaimed assets"
+      ]
+    },
+    {
+      "tag": "assets",
+      "patterns": [
+        "How do I report assets?",
+        "Report an asset",
+        "How to report?",
+        "Want to know about my unclaimed asset"
+      ],
+      "responses": [
+        "To report an asset, please click <a href='https://holders.ufaa.go.ke/site/login' target='_blank'>here</a>."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "asset claim",
+      "patterns": [
+        "claiming an asset",
+        "how do i claim an asset?",
+        "how do i claim assets"
+      ],
+        "responses": [
+          "Track Your Claim\nYou can find out the progress of your claim <a href='https://reunify.ufaa.go.ke/site/login' target='_blank'>here</a>\n\nStart Claiming by clicking <a href='https://reunify.ufaa.go.ke/site/login' target='_blank'>here</a>\nLet’s help reunite you with your unclaimed financial assets"
+        ]
+      
+    },
+    {
+      "tag": "ufaa with money",
+      "patterns": [
+        "What does UFAA do with the money",
+        "how does ufaa handle the money",
+        "ufaa do with the money"
+      ],
+        "responses": [
+          "Track Your Claim\nYou can find out the progress of your claim <a href='https://reunify.ufaa.go.ke/site/login' target='_blank'>here</a>\n\nStart Claiming by clicking <a href='https://reunify.ufaa.go.ke/site/login' target='_blank'>here</a>\nLet’s help reunite you with your unclaimed financial assets"
+        ]
+      
+    },
+    {
+      "tag": "login",
+      "patterns": [
+        "Login in",
+        "Loginin",
+        "Sign in",
+        "How do I log in",
+        "How do I sign in"
+      ],
+      "responses": [
+        "To log in, please click <a href='https://reunify.ufaa.go.ke/site/login' target='_blank'>here</a>."
+      ]
+    },
+    {
+      "tag": "register",
+      "patterns":[
+        "register",
+        "Sign up",
+        "Signup",
+        "How do I create an account",
+        "How do I sign up"
+      ],
+      "responses": [
+        "To create an account click on the following <a href='https://reunify.ufaa.go.ke/site/register' target='_blank'>here</a>."
+      ]
+    },
+    {
+      "tag": "examples of unclaimed assets",
+      "patterns":[
+        "what are examples of unclaimed assets",
+        "List examples of unclaimed assets",
+        "unclaimed assets examples",
+        "examples of unclaimed assets"
+      ],
+      "responses": [
+        "Unclaimed assets include: bank accounts, shares, dividends, insurance policies, bonds, cheques, safe deposit boxes, trust funds, utility deposits, escrow accounts, refunds, royalties, and dormant company shares."
+        
+      ]
+    },
+    {
+      "tag": "money or asset loss",
+      "patterns":[
+        "lose money",
+        "Do I lose my money",
+        "asset loss",
+        "Do I lose my money once it is turned over to the UFAA?",
+        "money",
+        "asset"
+      ],
+      "responses": [
+        "You do not lose any financial assets once remitted to UFAA and we guarantee that the money will always be there waiting for you to claim it."
+        
+      ]
+    },
+    {
+      "tag": "opening safe deposit box",
+      "patterns":[
+        "Who bears the cost for opening a safe deposit box?",
+        "safe deposit box",
+        "deposit box",
+        "who bears cost",
+        "who bears the cost"
+      ],
+      "responses": [
+        "Where a safe deposit box is forced open, the Authority shall bear the cost of the forced opening of the box and the repair of the box."
+        
+      ]
+    },
+    {
+      "tag": "who can have unclaimed assets",
+      "patterns":[
+        "Do you have to be rich to be owed unclaimed assets?",
+        "Do you have to be rich",
+        "who can have unclaimed assets"
+      ],
+      "responses": [
+        "Any person can have unclaimed assets considering you may have put a deposit in a bank, rented a facility or earned wages."
+        
+      ]
+    },
+    {
+      "tag": "how do assets become unclaimed",
+      "patterns":[
+        "How do assets become “unclaimed”?",
+        "How do assets become unclaimed?",
+        "How assest become unclaimed",
+        "what causes assets to be unclaimed"
+      ],
+      "responses": [
+        "According to section 3-18 of Unclaimed Financial Assets (UFA) Act, 2011, unclaimed assets have to meet the following conditions:\n\ni. When records of the holder do not reflect the identity of the person enlisted to the assets.\n\nii. When the holder has not previously paid or delivered the assets to the apparent owner or other person entitled to the assets.\n\niii. The last known address, as shown on the records of the holder, of the apparent owner is in a country that does not provide by law for the escheat or custodial taking of the assets or its escheat or unclaimed assets law is not applicable to the assets and the holder is domiciled in Kenya.\n\niv. Other ways that assets become unclaimed:\n• Death\n• Forgetfulness\n• Poor record-keeping\n• Relocation (Regional & global)\n• Ignorance\n• Negligence\n\nAlso, note that assets are considered “abandoned property” when they appear to have been forsaken by their owner by virtue of no generated activity and to which it is presumed the owner has relinquished his or her interest to the property without vesting such interest in another person or entity."
+      ]
+      
+      
+    },
+    {
+      "tag": "holder definition",
+      "patterns":[
+        "Holder",
+        "Who is a holder",
+        "Who is a holder?",
+        "Define a holder"
+      ],
+      "responses": [
+        "A holder (or a holding institution) is an entity that is in possession of a financial asset on behalf of an owner. These institutions can be banks, insurance companies, businesses, etc."
+      ]
+      
+      
+    },
+    {
+      "tag": "claim basic requirements",
+      "patterns":[
+        "Claimant's basic checklist",
+        "claimant checklist",
+        "Documents needed",
+        "papers required",
+        "basic checklist",
+        "what are the basic requirements to file for a claim"
+      ],
+      
+        "responses": [
+          "Fill the appropriate provided claim forms which can be downloaded online <a href='www.ufaa.go.ke' target='_blank'>here</a> or picked from UFAA’s offices and should be witnessed by Commissioner of Oaths as appropriate.\n\n✔ 4A- Original Owner Claim\n\n✔ 4B – Beneficiary Claim (Deceased cases)\n\n✔ 4C – Business entity Claim\n\n✔ 4D – Agent for owner claim\n\n✔ Form 5 – Indemnity Agreement form\n\n• Claimants Bank details form and one-page copy of recent Bank statement, deposit/withdrawal slip confirming bank account details provided\n\n• An original official letter from holder confirming remittance of the unclaimed financial assets to the Authority\n• Copy of claimant’s National ID card or passport, certified by a lawyer or magistrate\n\n• Copy of claimants KRA PIN Certificate\n\n• Original Affidavit if names differ between National ID, KRA PIN and holders documents or is initialed in any of the  documents"
+        ]
+      
+    },
+    {
+      "tag": "find claim",
+      "patterns":[
+        "Where can I find a claim",
+        "where do i get a claim",
+        "find a claim"
+      ],
+      
+        "responses": [
+          "You can check for unclaimed assets by dialing a USSD code *361# on your Safaricom line or click <a href='www.reunify.ufaa.go.ke' target='_blank'>here</a> or visit any Huduma centre branches in Nairobi and Huduma centre cyber cafes countrywide to check assets."
+        ]
+      
+    },
+    {
+      "tag": "additional documents for filing a claim",
+      "patterns":[
+        "Additional documents for filing a claim",
+        "Additional documents",
+        "what are the additional documents needed to file for a claim",
+        "any additional documents needed"
+      ],
+      
+      
+        "responses": [
+          "Fill the appropriate provided claim forms which can be downloaded online (www.ufaa.go.ke) or picked from UFAA’s offices and should be witnessed by Commissioner of Oaths as appropriate.\n\n ✔ 4A- Original Owner Claim\n\n ✔ 4B – Beneficiary Claim (Deceased cases)\n\n ✔ 4C – Business entity Claim\n\n ✔ 4D – Agent for owner claim\n\n ✔ Form 5 – Indemnity Agreement form\n\n • Claimants Bank details form and one-page copy of recent Bank statement, deposit/withdrawal slip confirming bank account details provided\n\n • An original official letter from holder confirming remittance of the unclaimed financial assets to the Authority\n\n • Copy of claimant’s National ID card or passport, certified by a lawyer or magistrate\n\n • Copy of claimants KRA PIN Certificate\n\n • Original Affidavit if names differ between National ID, KRA PIN and holders documents or is initialed in any of the  documents" 
+        ]
+      
+      
+      }
+      
+  ]
+}
